@@ -11,6 +11,7 @@ import { CategoriesComponent } from './categories/categories.component';
 import { FooterComponent } from './footer/footer.component';
 import { NewComponent } from './new/new.component';
 import { EverythingComponent } from './everything/everything.component';
+import { VideosComponent } from './videos/videos.component';
 
 @NgModule({
   imports: [
@@ -30,6 +31,7 @@ import { EverythingComponent } from './everything/everything.component';
     FooterComponent,
     NewComponent,
     EverythingComponent,
+    VideosComponent,
   ],
   bootstrap: [AppComponent],
 })
